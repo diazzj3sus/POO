@@ -8,6 +8,7 @@ TipoUsuario VARCHAR(25) NOT NULL,
 DescipcionTipoUsuario VARCHAR(255)
 )
 GO
+insert into TipoUsuario VALUES('Administrador','Posee todos los permisos dentro del software')
 CREATE TABLE Usuarios(
 IdUsuario CHAR(6) PRIMARY KEY,
 Nombre VARCHAR(75) NOT NULL,
@@ -17,6 +18,7 @@ DUI CHAR(9) NOT NULL,
 IdTipoUsuarioUsusarios INT FOREIGN KEY REFERENCES TipoUsuario(IdTipoUsuario) ON DELETE CASCADE ON UPDATE CASCADE
 )
 GO
+INSERT INTO Usuarios VALUES('A00001','Admin','Admin','1-10-2020','123456789','0')
 CREATE TABLE Pacientes(
 IdPaciente CHAR(6) PRIMARY KEY,
 Nombre VARCHAR(75) NOT NULL,

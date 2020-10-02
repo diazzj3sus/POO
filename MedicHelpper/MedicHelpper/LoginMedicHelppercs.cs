@@ -86,7 +86,7 @@ namespace MedicHelpper
                     if (dt.Rows[0][6].ToString() == "0")
                     {
                         this.Hide();
-                        string nombre = ("Usuario: "+dt.Rows[0][2] + " " + dt.Rows[0][3]);
+                        string nombre = (dt.Rows[0][2] + " " + dt.Rows[0][3]);
                         MenuAdministrador menu = new MenuAdministrador(nombre);
                         menu.Show();
                     }

@@ -15,7 +15,7 @@ namespace MedicHelpper
         public MenuAdministrador(string nombre)
         {
             InitializeComponent();
-            lblusuario.Text = nombre;
+            lbluser.Text = nombre;
             
         }
 
@@ -26,7 +26,26 @@ namespace MedicHelpper
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            LoginMedicHelppercs login = new LoginMedicHelppercs();
+            login.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginMedicHelppercs login = new LoginMedicHelppercs();
+            login.Show();
+        }
+
+        private void lbluser_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

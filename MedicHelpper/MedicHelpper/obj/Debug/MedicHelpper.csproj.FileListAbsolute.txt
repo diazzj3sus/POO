@@ -11,3 +11,5 @@ C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.csproj.CopyComplete
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.exe
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.pdb
+C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.Base.resources
+C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.MenuAdministrador.resources

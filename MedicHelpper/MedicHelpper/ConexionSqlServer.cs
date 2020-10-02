@@ -8,7 +8,7 @@ namespace MedicHelpper
 {
     class ConexionSqlServer
     {
-        SqlConnection conexion = new SqlConnection("server=localhost;database=MedicHelpperBDD;Trusted_Connection=True;");
+        public SqlConnection conexion = new SqlConnection("server=localhost;database=MedicHelpperBDD;Trusted_Connection=True;");
         public void abrir()
         {
             try
@@ -16,14 +16,15 @@ namespace MedicHelpper
                 conexion.Open();
                 Console.WriteLine("Conexion abierta");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                Console.WriteLine("Error de conexion"+ex.Message);
+                Console.WriteLine("Error de conexion" + ex.Message);
             }
         }
         public void cerrar()
         {
-                conexion.Close();
+            conexion.Close();
         }
     }
 }
+

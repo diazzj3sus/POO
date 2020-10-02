@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuAdministrador));
             this.lblusuario = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbluser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lbluser = new System.Windows.Forms.Label();
             this.btnsalir = new System.Windows.Forms.Button();
             this.btnfarmacia = new System.Windows.Forms.Button();
             this.btnconsultas = new System.Windows.Forms.Button();
@@ -70,6 +70,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(643, 135);
             this.panel1.TabIndex = 1;
+            // 
+            // lbluser
+            // 
+            this.lbluser.AutoSize = true;
+            this.lbluser.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbluser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(248)))));
+            this.lbluser.Location = new System.Drawing.Point(108, 107);
+            this.lbluser.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lbluser.Name = "lbluser";
+            this.lbluser.Size = new System.Drawing.Size(140, 22);
+            this.lbluser.TabIndex = 7;
+            this.lbluser.Text = "-------------";
+            this.lbluser.Click += new System.EventHandler(this.lbluser_Click);
             // 
             // label1
             // 
@@ -118,19 +131,6 @@
             this.label3.Size = new System.Drawing.Size(135, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "® MedicHelpper";
-            // 
-            // lbluser
-            // 
-            this.lbluser.AutoSize = true;
-            this.lbluser.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbluser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(248)))));
-            this.lbluser.Location = new System.Drawing.Point(108, 107);
-            this.lbluser.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.lbluser.Name = "lbluser";
-            this.lbluser.Size = new System.Drawing.Size(140, 22);
-            this.lbluser.TabIndex = 7;
-            this.lbluser.Text = "-------------";
-            this.lbluser.Click += new System.EventHandler(this.lbluser_Click);
             // 
             // btnsalir
             // 
@@ -199,6 +199,7 @@
             this.btncitas.Text = "      Citas";
             this.btncitas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncitas.UseVisualStyleBackColor = false;
+            this.btncitas.Click += new System.EventHandler(this.btncitas_Click);
             // 
             // btnusuarios
             // 

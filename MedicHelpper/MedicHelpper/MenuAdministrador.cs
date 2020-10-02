@@ -47,5 +47,12 @@ namespace MedicHelpper
         {
 
         }
+
+        private void btncitas_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Base citas = new Base();
+            citas.Show();
+        }
     }
 }

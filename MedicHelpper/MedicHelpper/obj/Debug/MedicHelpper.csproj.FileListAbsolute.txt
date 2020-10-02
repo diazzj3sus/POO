@@ -13,3 +13,6 @@ C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.pdb
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.Base.resources
 C:\Users\GRX\Desktop\CICLO II\POO\ProyectoPOO\POO\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.MenuAdministrador.resources
+C:\Users\William\Source\Repos\POO3\MedicHelpper\MedicHelpper\bin\Debug\MedicHelpper.exe.config
+C:\Users\William\Source\Repos\POO3\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.exe
+C:\Users\William\Source\Repos\POO3\MedicHelpper\MedicHelpper\obj\Debug\MedicHelpper.pdb

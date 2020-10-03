@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MedicHelpper
 {
-    public partial class citas : Form
+    public partial class Usuarios : Form
     {
-        public citas()
+        public Usuarios()
         {
             InitializeComponent();
         }

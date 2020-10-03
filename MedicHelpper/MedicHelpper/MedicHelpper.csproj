@@ -123,5 +123,29 @@
   <ItemGroup>
     <None Include="Resources\salir.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarioDEF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reanudar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headhunter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostrar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

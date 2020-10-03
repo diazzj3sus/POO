@@ -17,6 +17,22 @@ namespace MedicHelpper
             InitializeComponent();
         }
 
-        
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginMedicHelppercs login = new LoginMedicHelppercs();
+            login.Show();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            txtApellido.Visible = true;
+            txtFechaBirth.Visible = true;
+            txtNombre.Visible = true;
+            pictureBox2.Visible = true;
+            lblBirth.Visible = true;            
+            lblLastName.Visible = true;
+            lblName.Visible = true;
+        }
     }
 }
